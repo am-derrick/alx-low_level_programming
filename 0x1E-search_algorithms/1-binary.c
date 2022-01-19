@@ -28,8 +28,7 @@ void print_array(int *array, size_t size)
  * @size: number of elements in array
  * @value: value to search for
  *
- * return: index where value is located, or -1 if value is not present or
- * array is NULL
+ * return: index where value is located, -1 if fails
  */
 int binary_search(int *array, size_t size, int value)
 {
