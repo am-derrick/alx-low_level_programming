@@ -23,7 +23,7 @@ size_t min_val(size_t a, size_t b)
  *
  * Return: first index where valie is, or -1 on failure
  */
-int jump_search(int *arry, size_t size, int value)
+int jump_search(int *array, size_t size, int value)
 {
 	size_t left, right, step;
 	int num;
